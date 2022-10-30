@@ -14,7 +14,7 @@ while True:
     if '-' not in word and ' ' not in word:
         break
 
-os.system('cls')
+os.system('cls|clear')
 print("""
 
 ██╗░░██╗░█████╗░███╗░░██╗░██████╗░███╗░░░███╗░█████╗░███╗░░██╗
