@@ -1,5 +1,5 @@
 import os
-os.system("cls")
+os.system("cls|clear")
 gameselect = input("tictactoe or hangman?:").lower()
 
 #-------Tic Tac Toe Game-------#
