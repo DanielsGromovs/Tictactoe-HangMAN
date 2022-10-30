@@ -7,7 +7,6 @@ won = False
 slots = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 history = []
 turn = "X"
-
 # Priekš loop
 active = True
 
@@ -129,7 +128,7 @@ while active:
         active = False
     else:
         active = False
-    os.system("cls")
+    os.system("cls|clear")
     board()
 
 if turn == "X":
